@@ -338,7 +338,7 @@
     </style>
     <!-- Start of Async Drift Code -->
     <script>
-      !(function() {
+      !(function () {
         var t;
         if (((t = window.driftt = window.drift = window.driftt || []), !t.init))
           return t.invoked
@@ -359,10 +359,10 @@
                 "page",
                 "hide",
                 "off",
-                "on"
+                "on",
               ]),
-              (t.factory = function(e) {
-                return function() {
+              (t.factory = function (e) {
+                return function () {
                   var n;
                   return (
                     (n = Array.prototype.slice.call(arguments)),
@@ -372,10 +372,10 @@
                   );
                 };
               }),
-              t.methods.forEach(function(e) {
+              t.methods.forEach(function (e) {
                 t[e] = t.factory(e);
               }),
-              (t.load = function(t) {
+              (t.load = function (t) {
                 var e, n, o, i;
                 (e = 3e5),
                   (i = Math.ceil(new Date() / e) * e),
@@ -408,8 +408,8 @@
         </header>
         <h2 class="t-center t-light summary">
           Hello! I'm <strong> Anmol</strong>. I currently work at
-          <a class="link" href="https://quaestor.com/">Quaestor</a>.
-          I've worked with startups in the US and India in Product + Engineering. I write
+          <a class="link" href="https://quaestor.com/">Quaestor</a>. I've worked
+          with startups in the US and India in Product + Engineering. I write
           <a class="link" href="https://fund.maini.dev/memos.html">memos</a> on
           Indian startups I like, and a
           <a class="link" href="https://keepingupwithindia.com">daily</a> &
@@ -419,7 +419,7 @@
         <div class="t-center social">
           <div class="cta">
             <a class="link" href="#work">Work</a>
-            <a class="link" style="margin-left: 10%;" href="#projects"
+            <a class="link" style="margin-left: 10%" href="#projects"
               >Projects</a
             >
           </div>
@@ -485,9 +485,23 @@
         </div>
       </div>
       <div class="card" id="work">
-        <h2 class="section-heading">
-          🏗 Work |
-        </h2>
+        <h2 class="section-heading">🏗 Work |</h2>
+        <div class="sub-section">
+          <h3>
+            <a
+              title="Fast"
+              class="link"
+              href="https://quaestor.com/"
+              rel="nofollow"
+              target="_blank"
+            >
+              Quaestor
+            </a>
+          </h3>
+          <h4>Full Stack Engineer</h4>
+          <h4>Jul 2020 to Present</h4>
+          <p>Building financial tools for VCs and founders to collaborate</p>
+        </div>
         <div class="sub-section">
           <h3>
             <a
@@ -500,15 +514,9 @@
               Fast.co
             </a>
           </h3>
-          <h4>
-            Frontend Engineer
-          </h4>
-          <h4>
-            Dec 2019 to May 2020
-          </h4>
-          <p>
-            Build the fastest checkout & login experience for the internet.
-          </p>
+          <h4>Frontend Engineer</h4>
+          <h4>Dec 2019 to May 2020</h4>
+          <p>Built the fastest checkout & login experience for the internet.</p>
         </div>
         <div class="sub-section">
           <h3>
@@ -522,12 +530,8 @@
               Postmates
             </a>
           </h3>
-          <h4>
-            Engineer
-          </h4>
-          <h4>
-            Oct 2018 to Dec 2019
-          </h4>
+          <h4>Full Stack Engineer</h4>
+          <h4>Oct 2018 to Dec 2019</h4>
           <p>
             Designed, implemented and tested software
             <strong>(Go, React + Redux, GraphQL + Apollo)</strong> for the
@@ -551,12 +555,8 @@
               Doodh.Delivery
             </a>
           </h3>
-          <h4>
-            Co-Founder
-          </h4>
-          <h4>
-            Jul 2017 to Jun 2018
-          </h4>
+          <h4>Co-Founder</h4>
+          <h4>Jul 2017 to Jun 2018</h4>
           <p>
             Started an online daily milk delivery service in New Delhi. Built
             the <a class="link" href="https://doodh.delivery">website</a> using
@@ -578,77 +578,15 @@
               InnerChef
             </a>
           </h3>
-          <h4>
-            Product
-          </h4>
-          <h4>
-            Jul 2015 to Sep 2017
-          </h4>
+          <h4>Product</h4>
+          <h4>Jul 2015 to Sep 2017</h4>
           <p>
-            Lead Designer of InnerChef’s mobile application, designing high
-            fidelity prototypes using <strong>Sketch and Origami</strong>.
-            Developed a new brand identity and color scheme throughout the
-            different verticals of InnerChef. Launched the dessert marketplace
-            platform and onboarded 5 bakers, currently over 100 bakers across
-            the country. Integrated an IoT platform (MagicTap) to drive mobile
-            app growth, and redesigned InnerChef’s facebook messenger bot
-            workflow to reduce churn by <strong>30%</strong>.
-          </p>
-        </div>
-        <div class="sub-section">
-          <h3>
-            <a
-              title="Little Black Book"
-              class="link"
-              href="https://lbb.in/"
-              rel="nofollow"
-              target="_blank"
-            >
-              Little Black Book
-            </a>
-          </h3>
-          <h4>
-            Engineer
-          </h4>
-          <h4>
-            Aug 2016 to Sep 2016
-          </h4>
-          <p>
-            Enhanced the workflow of the web team from a manual build cycle to
-            an automated cycle using <strong>gulp</strong>. Designed, with
-            <strong>Sketch</strong>, & developed a lightweight livestreaming
-            (stream of images) web app, with HTML/CSS+JS, for events hosted by
-            LBB. Wrote a script for the Social Media team to follow the
-            competitor’s users on Twitter and Instagram using
-            <strong>PhantomJS</strong>.
-          </p>
-        </div>
-        <div class="sub-section">
-          <h3>
-            <a
-              title="Climb Credit"
-              class="link"
-              href="https://climbcredit.com/"
-              rel="nofollow"
-              target="_blank"
-            >
-              Climb Credit
-            </a>
-          </h3>
-          <h4>
-            Intern
-          </h4>
-          <h4>
-            Apr 2016 to Jul 2016
-          </h4>
-          <p>
-            Developed a testing platform for applications from new schools.
-            Wrote an <strong>API</strong> for gathering applicant’s credit
-            information. Used <strong>D3.js</strong> to chart key metrics
-            (applications, churn, loans) on the company’s internal website built
-            on the <strong>MEAN stack with Pug.js</strong>. Automated database
-            dumps from the production to development environment using
-            <strong>Bash & JS</strong>.
+            Lead Designer of InnerChef’s mobile application. Developed a new
+            brand identity and color scheme throughout the different verticals
+            of InnerChef. Launched and managed the dessert marketplace platform.
+            Integrated an IoT platform (MagicTap) to drive mobile app growth,
+            and redesigned InnerChef’s facebook messenger bot workflow to reduce
+            churn by <strong>30%</strong>.
           </p>
         </div>
         <div class="sub-section">
@@ -663,12 +601,8 @@
               GSF India
             </a>
           </h3>
-          <h4>
-            Entrepreneur in Residence
-          </h4>
-          <h4>
-            Jun 2013 to Aug 2013
-          </h4>
+          <h4>Entrepreneur in Residence</h4>
+          <h4>Jun 2013 to Aug 2013</h4>
           <p>
             Youngest Entrepreneur in Residence at the accelerator
             <strong>(won a programming contest of 500 participants)</strong>.
@@ -681,9 +615,71 @@
         </div>
       </div>
       <div class="card" id="projects">
-        <h2 class="section-heading">
-          ⚡ Projects |
-        </h2>
+        <h2 class="section-heading">⚡ Projects |</h2>
+        <div class="sub-section">
+          <h3>
+            <a
+              title="daily kanye quotes"
+              class="link"
+              href="https://kanye.maini.dev/"
+              target="_blank"
+            >
+              Daily Kanye Quotes
+            </a>
+          </h3>
+          <p>
+            A serverless web app built with Next.js, Quirell, Twilio and
+            kanye.rest to text yourself Kanye quotes every morning
+          </p>
+        </div>
+        <div class="sub-section">
+          <h3>
+            <a
+              title="bops.fm"
+              class="link"
+              href="https://bops.fm/"
+              target="_blank"
+            >
+              Bops.fm
+            </a>
+          </h3>
+          <p>
+            A web app where you can click on any year from 1950-1999 and listen
+            to a randomly selected pop/rock song released in that year.
+          </p>
+        </div>
+        <div class="sub-section">
+          <h3>
+            <a
+              title="on the dl"
+              class="link"
+              href="https://onthedl.app/"
+              target="_blank"
+            >
+              On The DL
+            </a>
+          </h3>
+          <p>
+            On the DL is a react widget that lets you add password protection to
+            your website.
+          </p>
+        </div>
+        <div class="sub-section">
+          <h3>
+            <a
+              title="reactions.fyi"
+              class="link"
+              href="https://reactions.fyi/"
+              target="_blank"
+            >
+              Reaction.fyi
+            </a>
+          </h3>
+          <p>
+            Reactions.fyi is a react widget built to collect reactions from your
+            users on your website.
+          </p>
+        </div>
         <div class="sub-section">
           <h3>
             <a
@@ -728,9 +724,8 @@
             </a>
           </h3>
           <p>
-            A React + Next.js frontend and a
-            serverless function that makes requests to Stripe (payment) & Lob
-            (printing + shipping postcards) hosted on Zeit. Reached #6 on
+            A web app to mail memes on postcards to your friends & family.
+            Reached #6 on
             <a class="link" href="https://www.producthunt.com/posts/meme-cards"
               >ProductHunt</a
             >
@@ -751,40 +746,6 @@
             Chrome extension to save a craigslist search, and be notified of new
             listings based on the saved parameters. Built with HTML/CSS +
             Vanilla JS.
-          </p>
-        </div>
-        <div class="sub-section">
-          <h3>
-            <a
-              title="Scheduler App"
-              class="link"
-              href="https://github.com/roaderj/ischedule4u"
-              target="_blank"
-            >
-              Scheduler App
-            </a>
-          </h3>
-          <p>
-            Built an auto-scheduling mobile-first web app to let students plan
-            events around their daily schedules. Built with the MEAN stack.
-          </p>
-        </div>
-        <div class="sub-section">
-          <h3>
-            <a
-              title="Phetch!"
-              class="link"
-              href="http://shorturl.at/enoD1"
-              target="_blank"
-            >
-              Phetch!
-            </a>
-          </h3>
-          <p>
-            Phetch is an app for roommate management. Roommates can use the
-            mobile application for scheduling chores, and buying groceries. I
-            worked on the initial needfinding, desiging low-fidelity paper and
-            interactive prototypes, and developing the iOS app.
           </p>
         </div>
       </div>
